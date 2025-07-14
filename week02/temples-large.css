@@ -1,0 +1,76 @@
+/* Reset margins/padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+/* Header */
+header {
+  background-color: #4b0076;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+header .title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Section */
+main {
+  padding: 30px;
+  text-align: center;
+}
+
+main h1 {
+  margin-bottom: 30px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  justify-items: center;
+}
+
+.photo-card img {
+  width: 250px;
+  height: auto;
+  border: 1px solid #ccc;
+}
+
+.photo-card p {
+  margin-top: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #4b0076;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 14px;
+  margin-top: 50px;
+}
+
+
